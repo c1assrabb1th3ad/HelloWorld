@@ -143,6 +143,16 @@ body {
     padding-bottom: 72px;
 }
 
+.link:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
 .for__item_1 {
     background-color: #FFFFFF;
     width: 378px;
